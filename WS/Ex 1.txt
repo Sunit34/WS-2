@@ -1,0 +1,3 @@
+1) CLa gère les instances de la classe CLb grâce un membre objet (b1) et grâce un pointeur d'objet (p1).
+CLa utilise b1 pour avoir sa propre instance de CLb. 
+Alors que l'usagede p1 permet une allocation et désallocation dynamique de CLb. Cette approche nécessite une gestion manuelle de la mémoire, ce qui augmente le risque de fuite ou de référence invalide.
